@@ -10,7 +10,7 @@ deps:
 app: deps
 	@$(REBAR) compile
 
-clean: clean-docs clean-logs
+clean: clean-logs
 	@$(REBAR) clean
 	rm -f erl_crash.dump
 

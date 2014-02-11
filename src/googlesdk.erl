@@ -7,5 +7,5 @@
 %%% Created : 11 Feb 2014 by Ben Wann <bwann@tickbook.local>
 %%%-------------------------------------------------------------------
 -module(googlesdk).
-
-
+-author('Ben Wann <ben.wann@gmail.com>').
+-include("googlesdk.hrl").

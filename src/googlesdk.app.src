@@ -1,0 +1,21 @@
+{application, googlesdk, [
+                           {description, "Google SDK Application"},
+                           {vsn, "0.0.1"},
+                           {modules, []},
+                           {registered, []},
+                           {mod, {googlesdk_app, []}},
+                           {applications, [
+                                           kernel,
+                                           stdlib,
+                                           crypto,
+                                           sasl,
+                                           ssl,
+                                           lager,
+                                           ranch,
+                                           oauth2c,
+                                           jsx
+                                          ]},
+                           {env, [
+                                  {timer_t1, 500} % (msecs) 0.5 secs
+                                 ]}
+                          ]}.
